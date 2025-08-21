@@ -2,6 +2,7 @@
   name: trung-tam-dao-tao-spa-uy-tin-tphcm
   refs:
   - refs/heads/main
+  - refs/heads/*
   events:
   - type: PUSH
   fail_on_prepare_env_warning: true
