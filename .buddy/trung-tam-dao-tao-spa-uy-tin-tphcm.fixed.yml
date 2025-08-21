@@ -5,5 +5,10 @@
   - refs/heads/*
   events:
   - type: PUSH
+  - type: PULL_REQUEST
+    branches:
+    - :default
+    - '*'
+    - main
   fail_on_prepare_env_warning: true
   resources: SMALL
