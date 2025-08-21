@@ -1,0 +1,8 @@
+- pipeline: trung_tam_dao_tao_spa_uy_tin_tphcm
+  name: trung-tam-dao-tao-spa-uy-tin-tphcm
+  refs:
+  - refs/heads/main
+  events:
+  - type: PUSH
+  fail_on_prepare_env_warning: true
+  resources: SMALL
